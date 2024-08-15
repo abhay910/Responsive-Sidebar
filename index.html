@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <a href="javascript:void(0)" class="close-btn" onclick="toggleSidebar()">&times;</a>
+            <h2>LOGO</h2>
+        </div>
+        <nav>
+            <a href="#" class="sidebar-link">
+                <span class="icon">&#127968;</span> <!-- Home Icon -->
+                Home
+            </a>
+            <a href="#" class="sidebar-link">
+                <span class="icon">&#128101;</span> <!-- About Icon -->
+                About
+            </a>
+            <a href="#" class="sidebar-link">
+                <span class="icon">&#128176;</span> <!-- Services Icon -->
+                Services
+            </a>
+            <a href="#" class="sidebar-link">
+                <span class="icon">&#9993;</span> <!-- Contact Icon -->
+                Contact
+            </a>
+        </nav>
+    </div>
+    <div class="content">
+        <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
